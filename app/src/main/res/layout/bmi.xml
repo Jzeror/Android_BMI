@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#f2eded"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="너의 BMI는?"
+        android:textSize="50dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="45dp"
+        android:hint="키를 cm 단위로(ex. 186.5)"/>
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="45dp"
+        android:hint="몸무게를 kg 단위로(ex.81.7)"
+        />
+    <Button
+        android:id="@+id/send_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="130dp"
+        android:text="나의 BMI는?"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="두구두구두구두구"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:textSize="30dp"
+
+        />
+</LinearLayout>
